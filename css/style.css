@@ -1,0 +1,240 @@
+/* General rules */
+ *                                                                         {
+    margin: 0px;
+    padding: 0px;
+  }
+  .section{
+    padding-top: 80px;
+  }
+  .section .bold{
+    font-weight: bold;
+    text-align:center;
+  }
+  
+  .section h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    /* margin-top: 40px; */
+    }
+  .section h2:after{
+    content: "";
+    display: block;
+    margin: 0px auto;
+    padding-top: 20px;
+    border-bottom: 1px solid #0cd98a;
+    width: 70%
+  }
+  .section p {
+    font-size: 17px;
+  }
+  /* Navigation */
+  .main-menu{
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    background: #fff;
+    width: 100%;
+  }
+  ul.main-nav {
+    list-style: none;
+    margin: 0px;
+  }
+  .main-nav li:first-child {
+    margin-right: auto;
+  }
+  .main-nav li{
+    margin-left: 28px;
+    padding: 30px 0px;
+  
+  }
+  
+  .main-nav {
+    display: flex;
+  }
+  .main-nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .main-nav a:active,
+  .main-nav a:hover {
+    color: #0cd98a;
+  }
+  /* intro section text aliment  */  
+  #home{
+    background: url(../img/bg-intro.jpg) no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }   
+  #home .wrapper-text h1{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+}
+   
+       /* About us backround image animason   */
+  .flex-grid {
+    display: flex;
+  }
+  .flex-grid .col {
+      text-align: center;
+      margin: 40px 0px;
+  }
+  .flex-grid .col i {
+    margin: 20px 0px;
+  }
+  /* About us background */
+  
+  #about{
+    background:url(../img/coffee.jpg) no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+     /* _____________________about us text and ---------*/
+    
+  #about .about-text {
+    width: 700px;
+    padding: 30px 30px;
+
+    text-align: center;        
+    background-color: rgba(255, 255, 255, 0.548);
+  }
+  #myproject {
+      padding: 15px 25px;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.8);
+    
+  } 
+    /*-------------- concet us contenar size **********/
+  
+  .Chinkasoni-wrapper{
+    width: 60%;
+    margin: 0px auto;
+  }
+  .chinkasoni .testimonial-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ChinkaSoni-image img{
+    width: 250px;
+    border-radius: 50%;
+    padding: 20px;
+  }
+   .Chinkasoni-wrapper .testimonial-text {
+    padding: 15px 0px;
+    text-align: center;
+    
+  }   
+    /* ______________login from background colour **********/
+  #events{
+    background-color: #009999;
+    color: #fff;
+  }
+  #events h2::after{
+    border-bottom: 1px solid #fff;
+  }
+  /* Contact */
+  #contact form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }  
+   /* **************send booton on form ***************/
+  #contact button{
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    position:relative;
+    height: 45px;
+    font-size: 18px;
+    padding: 0px 60px;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+   
+  #contact button:hover{
+    background:#fff;
+    color:#1AAB8A;
+  }
+   
+  #contact button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+    transition:400ms ease all;
+  } */
+  .today{
+    text-align: center;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .today a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    text-align: center;
+    display: inline;
+    border: 1px solid rgb(16, 112, 67);
+    border-radius: 3px;
+    margin-right:32px;
+    padding: 2px 30px;
+  }
+  .today a:hover{
+    color: #fff;
+    background-color: rgb(22, 53, 138);
+  } /*
+  #contact button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  } /*
+  #contact button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }/*
+
+
+  /*Footer */
+  footer{
+    background: #333;
+    color: #fff;
+    padding: 50px 0px 0px 0px;
+  }
+  footer .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  footer .row p{
+    align-self:  flex-start;
+  }
+  
+  footer .social-wrapper a{
+    color: #fff;
+    padding: 6px;
+  }
+  footer .social-wrapper a:hover{
+    color: #1AAB8A;
+  }
+  
